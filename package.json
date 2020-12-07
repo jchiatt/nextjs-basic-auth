@@ -31,16 +31,16 @@
     "singleQuote": false,
     "trailingComma": "es5"
   },
-  "name": "nextjs-check-basic-auth",
+  "name": "nextjs-basic-auth",
   "author": "J.C. Hiatt",
-  "module": "dist/nextjs-check-basic-auth.esm.js",
+  "module": "dist/nextjs-basic-auth.esm.js",
   "size-limit": [
     {
-      "path": "dist/nextjs-check-basic-auth.cjs.production.min.js",
+      "path": "dist/nextjs-basic-auth.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/nextjs-check-basic-auth.esm.js",
+      "path": "dist/nextjs-basic-auth.esm.js",
       "limit": "10 KB"
     }
   ],
