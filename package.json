@@ -11,6 +11,7 @@
   "repository": "jchiatt/nextjs-basic-auth",
   "homepage": "https://github.com/jchiatt/nextjs-basic-auth",
   "bugs": "https://github.com/jchiatt/nextjs-basic-auth/issues",
+  "keywords": ["next", "nextjs", "basic auth", "auth"],
   "engines": {
     "node": ">=10"
   },
