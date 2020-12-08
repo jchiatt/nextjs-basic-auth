@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple Basic Auth implemention for Next.js applications.",
   "license": "MIT",
   "main": "dist/index.js",
@@ -11,7 +11,12 @@
   "repository": "jchiatt/nextjs-basic-auth",
   "homepage": "https://github.com/jchiatt/nextjs-basic-auth",
   "bugs": "https://github.com/jchiatt/nextjs-basic-auth/issues",
-  "keywords": ["next", "nextjs", "basic auth", "auth"],
+  "keywords": [
+    "next",
+    "nextjs",
+    "basic auth",
+    "auth"
+  ],
   "engines": {
     "node": ">=10"
   },
