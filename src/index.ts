@@ -1,15 +1,17 @@
-import { IncomingMessage, ServerResponse } from 'http'
-import { User } from './types'
-import checkBasicAuth from './checkBasicAuth'
+import { IncomingMessage, ServerResponse } from "http"
+import { User } from "./types"
+import checkBasicAuth from "./checkBasicAuth"
 
 interface Options {
   users?: User[]
 }
 
-function init(options: Options = {}){
-  const { users } = options;
+function init(options: Options = {}) {
+  const { users } = options
   if (!users) {
-    throw new Error("You must supply an array of user/password combinations in the config.")
+    throw new Error(
+      "You must supply an array of user/password combinations in the config."
+    )
   }
 
   return (req: IncomingMessage, res: ServerResponse) => {
@@ -17,4 +19,4 @@ function init(options: Options = {}){
   }
 }
 
-export default init;
+export default init
