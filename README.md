@@ -10,7 +10,7 @@ yarn add nextjs-basic-auth
 
 ## Setup
 
-Initialize by importing and passing an object containing an array of users (use `user` and `password` as your object keys):
+Initialize by importing and passing an object containing containing a `users` key, the value of which should be an array of users (use `user` and `password` as the keys for each respective user object):
 
 ```
 import initializeBasicAuth from 'nextjs-basic-auth'
