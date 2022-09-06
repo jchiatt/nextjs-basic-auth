@@ -15,7 +15,7 @@ function init(options: Options = {}) {
   }
 
   return (req: IncomingMessage, res: ServerResponse) => {
-    checkBasicAuth(req, res, users)
+    return checkBasicAuth(req, res, users)
   }
 }
 
